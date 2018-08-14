@@ -13,6 +13,9 @@ export class HomeComponent implements OnInit {
   }
 
   goSubDomain(resName: string) {
+    if(resName.length < 1)
+      return;
+      
     window.open(window.location.protocol + '//' + resName + '.' + window.location.host + '/credentials', "_top");
   }
 

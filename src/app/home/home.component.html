@@ -1,7 +1,8 @@
-<h3>
-  Insert the resource name
-</h3>
-<input type="text" #res>
-<button type="submit" (click)="goSubDomain(res.value)">Go!</button>
-
-
+<div class="form-home">
+  <h1 class="h3 mb-3 font-weight-normal">Insert the resource name -</h1>
+  <p>
+    <input #res type="text" class="form-control form-control-lg" placeholder="windows">
+  </p>
+  <button class="btn btn-lg btn-primary btn-block" type="submit" (click)='goSubDomain(res.value)'>Go!</button>
+  <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+</div>
