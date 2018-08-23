@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-credentials',
@@ -13,10 +14,7 @@ export class CredentialsComponent implements OnInit {
   }
 
   goDomain() {
-    let subDomains = window.location.hostname.split('.');
-    let host = subDomains[subDomains.length - 1] + ':' + window.location.port;
-
-    window.open(window.location.protocol + '//' + host + '/congratulations', "_top");
+    window.open(window.location.protocol + '//' + environment.hostname + '/congratulations', "_top");
   }
 
 }
