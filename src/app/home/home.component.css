@@ -3,7 +3,7 @@
 }
 
 .form-control-lg {
-    font-size: 5.25rem;
+    font-size: 4.5rem;
     line-height: 0;
 }
 
@@ -13,6 +13,6 @@
 }
 
 .form-home {
-    width: 600px;
+    max-width: 600px;
     margin: auto;
 }

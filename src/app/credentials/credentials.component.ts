@@ -14,7 +14,7 @@ export class CredentialsComponent implements OnInit {
   }
 
   goDomain() {
-    window.open(window.location.protocol + '//' + environment.hostname + '/congratulations', "_top");
+    window.open(window.location.protocol + '//' + environment.hostname + ':' + window.location.port + '/congratulations', "_top");
   }
 
 }
