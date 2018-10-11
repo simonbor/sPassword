@@ -1,14 +1,14 @@
-## The Passcard
+# The Passcard
 
-The resource allows you to store passwords directly into your browser
-No need to install any third-party software
-No need to spread your passwords between different password storing platforms
-You can save as many passwords as you want and can be accessed whenever and wherever you want!
+## The resource allows you to store passwords directly into your browser
+## No need to install any third-party software
+## No need to spread your passwords between different password storing platforms
+## You can save as many passwords as you want and can be accessed whenever and wherever you want!
 
 The system is based on the Google Password Manager.
 Currently, 11/10/2018 supported last Chrome and FireFox versions.
 
-# Enjoy!
+## Enjoy!
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
