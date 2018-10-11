@@ -1,12 +1,12 @@
 # The Passcard
 
-## The resource allows you to store passwords directly into your browser
-## No need to install any third-party software
-## No need to spread your passwords between different password storing platforms
-## You can save as many passwords as you want and can be accessed whenever and wherever you want!
+### The resource allows you to store passwords directly into your browser
+### No need to install any third-party software
+### No need to spread your passwords between different password storing platforms
+### You can save as many passwords as you want and can be accessed whenever and wherever you want!
 
-The system is based on the Google Password Manager.
-Currently, 11/10/2018 supported last Chrome and FireFox versions.
+### The system is based on the Google Password Manager.
+### Currently, 11/10/2018 supported last Chrome and FireFox versions.
 
 ## Enjoy!
 
