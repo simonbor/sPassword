@@ -1,5 +1,6 @@
 .h3 {
     font-size: 2.75rem;
+    margin-top: 30px;
 }
 
 .form-control-lg {
@@ -16,3 +17,37 @@
     width: 600px;
     margin: auto;
 }
+
+.read-more-wrap {
+    max-height: 46px;
+    position: relative;
+    overflow: hidden;
+}
+
+.read-more-wrap .read-more-cover {
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    margin: 0;
+    padding: 15px 0;
+    background-image: linear-gradient(to bottom, transparent, #e9ecef);
+}
+
+.read-more-target{
+    display: none;
+}
+
+.read-more-trigger {
+    float: right;
+}
+
+.read-more-trigger a {
+    float: right;
+    font-size: smaller;
+}
+
+  /* ._read-more-target {
+    transition: .25s ease; 
+  } */
+  
