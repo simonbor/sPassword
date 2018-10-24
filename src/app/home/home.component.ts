@@ -12,6 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  show: boolean = false;
+
   goSubDomain(resName: string) {
     if(resName.length < 1)
       return;

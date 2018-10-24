@@ -34,20 +34,20 @@
     background-image: linear-gradient(to bottom, transparent, #e9ecef);
 }
 
-.read-more-target{
-    display: none;
+.read-more-target {
+    transition: .25s ease;
 }
 
 .read-more-trigger {
     float: right;
 }
 
-.read-more-trigger a {
+.read-more-button {
     float: right;
     font-size: smaller;
+    color: #212529;
 }
 
-  /* ._read-more-target {
-    transition: .25s ease; 
-  } */
-  
+.read-more-button:hover {
+    text-decoration: none;
+}
