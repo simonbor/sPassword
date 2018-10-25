@@ -20,5 +20,4 @@ export class HomeComponent implements OnInit {
       
     window.open(window.location.protocol + '//' + resName + '.' + window.location.host + '/credentials', "_top");
   }
-
 }
