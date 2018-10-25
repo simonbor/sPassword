@@ -35,11 +35,12 @@
 }
 
 .read-more-target {
-    transition: .25s ease;
+    transition: .1s ease;
+    font-size: 0;
 }
 
-.read-more-trigger {
-    float: right;
+.read-more-target-show {
+    font-size: inherit;
 }
 
 .read-more-button {

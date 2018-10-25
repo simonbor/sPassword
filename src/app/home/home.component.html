@@ -1,19 +1,17 @@
 <div class="form-home">
-
   <div class="read-more-wrap">The resource allows you to store passwords directly into your browser.
     No need to install any third-party software. No need to spread your passwords between different
     <div class="read-more-cover" *ngIf='!show'></div>
   </div>
-  <div *ngIf="show" class="read-more-target">
+  <div [ngClass]="show?'read-more-target read-more-target-show':'read-more-target'">
     password storing platforms.
     You can save as many passwords as you want and can be accessed whenever and wherever you want!
     The system is based on the Google Password Manager. 
     Currently, 11/10/2018 supported last Chrome and FireFox versions.
-    For start just insert the password caption and click Go!
+    <p>For start just insert the password caption and click Go!</p>
   </div>
-  <div class="read-more-trigger">
+  <div>
     <a class="read-more-button" href="#" (click)='show=!show' *ngIf='!show'>read more</a></div>
-
   <h1 class="h3 mb-3 font-weight-normal">Insert the resource name -</h1>
   <p>
     <input #res type="text" class="form-control form-control-lg" placeholder="windows">
