@@ -12,9 +12,10 @@ export class CredentialsComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  
   goDomain() {
-    window.open(window.location.protocol + '//' + environment.hostname + ':' + window.location.port + '/congratulations', "_top");
+    const url = `${window.location.protocol}//${environment.hostname}:${window.location.port}/congratulations/`;
+    window.open(url, "_top");
   }
 
 }
