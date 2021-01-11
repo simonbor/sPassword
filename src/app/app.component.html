@@ -1,19 +1,17 @@
-<nav class="navbar navbar-dark bg-dark mb-5">
-  <a class="navbar-brand" href="{{hostname}}">Google Chrome Password Saver</a>
-  <div class="navbar-expand mr-auto">
-    <div class="navbar-nav">
-      <!-- <a class="nav-item nav-link" routerLink="/one">One</a>
-      <a class="nav-item nav-link" routerLink="/two">Two</a> -->
-    </div>
+<nav class="navbar navbar-dark navbar-expand-lg bg-dark mb-5">
+  <div class="collapse navbar-collapse">
+    <a class="navbar-brand navbar-nav mr-auto" href="{{hostname}}">Google Chrome Password Saver</a>
+    <a class="form-inline my-2 my-lg-0" href="https://www.buymeacoffee.com/simonbor" target="_blank">
+      <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=simonbor&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff">
+    </a>
   </div>
-
 </nav>
 
 <main role="main">
   <div class="jumbotron">
     <div class="col-sm-8 mx-auto">
       <router-outlet></router-outlet>
+      <app-footer></app-footer>
     </div>
   </div>
 </main>
-
